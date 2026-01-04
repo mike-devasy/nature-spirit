@@ -1,0 +1,98 @@
+/* Введите сюда ваш произвольный CSS */
+
+         .wpforms-submit.forms-custom-submit{
+			 
+  background-color: #fff !important; 
+  color: #FB5FAB9E !important;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 70px !important;
+  border: 2px solid #FB5FAB9E !important;
+  margin-top:15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+    }
+.wpforms-submit.forms-custom-submit:hover{
+	background-color: #F3BAFD !important;
+	color:#ffff !important;
+  transform: scale(1.03);
+}
+.wpforms-container .wpforms-two-thirds.wpforms-first{
+	max-width:60% !important;
+}
+.wpforms-text{
+	max-width:100%;
+}
+.premium-gallery-load-more-btn{
+	margin-top:20px;
+}
+@media(max-width:480px){
+	.premium-img-gallery-filter ul.premium-gallery-cats-container{
+		margin-bottom:10px;
+	}
+	.bg-wrapper {
+  position: absolute;
+  top:0;
+		left:0;
+		right:0;
+		bottom:0;
+/*   overflow: hidden; */
+}
+
+.bg-wrapper picture,
+.bg-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+
+	.premium-gallery-cats-container li a.category	{
+		margin:0 !important;
+	}
+}
+.footer-column-logo{
+		display:flex;
+		align-items:center;
+}
+@media (max-width: 921px) {
+  /* Скрыть левую колонку футера */
+.ast-builder-grid-row-container.ast-builder-grid-row-tablet-3-equal .ast-builder-grid-row {
+grid-template-columns: repeat(2, auto);
+    }
+  .site-footer-section-1{
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  /* Скрыть левую колонку футера */
+.ast-builder-grid-row-container.ast-builder-grid-row-tablet-3-equal .ast-builder-grid-row {
+grid-template-columns: repeat(1, auto);
+		justify-content:center;
+    }
+    [data-section=section-fb-social-icons-1] .footer-social-inner-wrap {
+        text-align: center;
+    }
+.ast-builder-grid-row{
+	padding-right:0px !important;
+	padding-left:0px !important;
+		}
+}
+@media (max-width: 600px){
+.site-footer-section-2{
+    order:2;
+  }
+.site-footer-section-3{
+    order:1;
+  }
+		.ast-footer-copyright p span{
+font-size:12px !important;
+		}
+}
+/*Скрыть надпись над кнопкой чата WhatsApp */
+.e-contact-buttons__powered-text{
+	display:none !important;
+}
+
+
+

@@ -1,0 +1,15 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media(max-width:767px) {
+	#category-img-container, #category-img-container2, #category-img-container3{
+		max-height:400px;
+	}
+}
+@media(max-width:480px) {
+	#category-img-container, #category-img-container2, #category-img-container3{
+		max-height:200px;
+	}
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
